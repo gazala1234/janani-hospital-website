@@ -1,19 +1,6 @@
 <?php
 include('header.php');
 ?>
-<style>
-  .home-card {
-    border: 1px solid #e53089;
-    border-radius: 5px;
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .facilities {
-    max-height: 200px;
-    width: 100%;
-    object-fit: cover;
-  }
-</style>
 
 <body>
   <!-- slider code  -->

@@ -9,6 +9,8 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Font Awesome link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
@@ -55,103 +57,94 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-1 p-lg-0">
                 <a href="index.php" class="nav-item nav-link">Home</a>
-
                 <a href="about.php" class="nav-item nav-link">About</a>
 
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Departments</a>
-                    <div class="dropdown-menu bg-light m-0">
-
-                        <a href="#" class="dropdown-item dropdown-toggle">OBG (Obstetrics and Gynecology)</a>
-                        <div class="dropdown-menu bg-light m-0">
-                            <a href="#" class="dropdown-item">Infertility</a>
-                            <a href="#" class="dropdown-item">Gynecology</a>
-                            <a href="#" class="dropdown-item">Painless Normal Delivery</a>
-                            <a href="#" class="dropdown-item">Endoscopy</a>
-                            <a href="#" class="dropdown-item">Laparoscopy</a>
-                            <a href="#" class="dropdown-item">Hysteroscopy</a>
-                        </div>
-
-                        <a href="#" class="dropdown-item dropdown-toggle">Pediatrics & Neonatology</a>
-                        <div class="dropdown-menu bg-light m-0">
-                            <a href="#" class="dropdown-item">Pediatrics & NICU (Neonatology / Immunization)</a>
-                        </div>
-
-                        <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">General Medicine</a>
-                        <div class="dropdown-menu bg-light m-0">
-                            <a href="#" class="dropdown-item">General Medicine</a>
-                            <a href="#" class="dropdown-item">Critical Care (ICU)</a>
-                        </div>
-
-                        <a href="#" class="dropdown-item dropdown-toggle">General Surgery & Surgical Gastroenterology</a>
-                        <div class="dropdown-menu bg-light m-0">
-                            <a href="#" class="dropdown-item">General Surgery</a>
-                            <a href="#" class="dropdown-item">Surgical Gastroenterology</a>
-                        </div>
-
-                        <a href="#" class="dropdown-item dropdown-toggle">Orthopaedics</a>
-                        <div class="dropdown-menu bg-light m-0">
-                            <a href="#" class="dropdown-item">Fracture, Trauma & Accident</a>
-                        </div>
-
-                        <a href="#" class="dropdown-item dropdown-toggle">Urology & Nephrology</a>
-                        <div class="dropdown-menu bg-light m-0">
-                            <a href="#" class="dropdown-item">Urology</a>
-                            <a href="#" class="dropdown-item">Nephrology</a>
-                        </div>
-
-                        <a href="#" class="dropdown-item dropdown-toggle">Pain Management</a>
-                        <div class="dropdown-menu bg-light m-0">
-                            <a href="#" class="dropdown-item">Pain Clinic</a>
-                        </div>
-
-                    </div>
-                </div>
+                <li class="dropdown dropdown-items nav-item nav-link"><a href="#" style="color: black;">Departments <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                        <li class="dropdown dropdown-items"><a href="#">OBG (Obstetrics and Gynecology) <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="infertility.php" class="dropdown-items">Infertility</a></li>
+                                <li><a href="#" class="dropdown-items">Gynecology</a></li>
+                                <li><a href="#" class="dropdown-items">Painless Normal Delivery</a></li>
+                                <li><a href="#" class="dropdown-items">Endoscopy</a></li>
+                                <li><a href="#" class="dropdown-items">Laparoscopy</a></li>
+                                <li><a href="#" class="dropdown-items">Hysteroscopy</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-items"><a href="#">Pediatrics & Neonatology <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="#" class="dropdown-items">Pediatrics & NICU (Neonatology / Immunization)</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-items"><a href="#">General Medicine <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="#" class="dropdown-items">General Medicine</a></li>
+                                <li><a href="#" class="dropdown-items">Critical Care (ICU)</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-items"><a href="#">General Surgery & Surgical Gastroenterology <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="#" class="dropdown-items">General Surgery</a></li>
+                                <li><a href="#" class="dropdown-items">Surgical Gastroenterology</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-items"><a href="#">Orthopaedics <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="#" class="dropdown-items">Fracture, Trauma & Accident</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-items"><a href="#">Urology & Nephrology <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="#" class="dropdown-items">Urology</a></li>
+                                <li><a href="#" class="dropdown-items">Nephrology</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown dropdown-items"><a href="#">Pain Management <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <li><a href="#" class="dropdown-items">Pain Clinic</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
 
                 <a href="facilities.php" class="nav-item nav-link">Facilities</a>
-
                 <a href="doctors.php" class="nav-item nav-link">Our Doctors</a>
-
                 <a href="gallery.php" class="nav-item nav-link">Gallery</a>
-
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
-
                 <a href="#" class="login-button nav-item btn btn-outline-primary light" style="margin-left: 10px;">Login</a>
 
                 <div class="nav-item nav-link search-container">
                     <i class="fas fa-search search-icon" id="searchIcon" aria-hidden="true"></i>
                     <input type="text" class="form-control search-input" placeholder="Search" aria-label="Search" id="searchInput">
                 </div>
-
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
         $(document).ready(function() {
+            // Handle the search icon click event
             $('#searchIcon').on('click', function() {
-                var $navItems = $('.nav-items');
                 var $searchInput = $('#searchInput');
 
+                // Toggle search input visibility
                 if ($searchInput.is(':visible')) {
                     $searchInput.hide();
-                    $navItems.show();
                 } else {
-                    $navItems.hide();
                     $searchInput.show().focus();
                 }
             });
 
+            // Hide search input when clicking outside
             $(window).on('click', function(event) {
                 var $searchInput = $('#searchInput');
                 var $searchContainer = $('.search-container');
-                var $navItems = $('.nav-items');
-                if (!$searchContainer.is(event.target) && $searchContainer.has(event.target).length == 0) {
+
+                if (!$searchContainer.is(event.target) && $searchContainer.has(event.target).length === 0) {
                     $searchInput.hide();
-                    $navItems.show();
                 }
             });
         });
