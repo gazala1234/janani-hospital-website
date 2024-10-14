@@ -6,30 +6,16 @@ include('appointment.php');
 <!-- departments section styling -->
 <link href="/css/departments.css" rel="stylesheet">
 
-<style>
-    .infertility {
-    width: 100%;
-    height: auto;
-}
-
-@media (min-width: 768px) {
-    .infertility {
-        width: 80%; 
-        max-width: 700px; 
-    }
-}
-</style>
-
 <body>
     <div class="container mt-3">
         <div class="row align-items-center">
             <div class="col-12 col-md-6">
-                <h1>What is Infertility?</h1>
-                <p class="custom-justify">Infertility is the inability to conceive after a year of regular, unprotected intercourse. It affects both men and women and can be caused by various factors, including hormonal imbalances, reproductive organ issues, or underlying medical conditions. Lifestyle choices, age, and stress can also contribute to infertility. Diagnosis typically involves medical tests and evaluations to determine the root cause. Treatment options range from medication and lifestyle changes to assisted reproductive technologies like IVF. Early intervention can improve the chances of successful conception.</p>
+                <h1>What is Fracture, Trauma & Accident?</h1>
+                <p class="custom-justify"><b>Fracture</b> refers to a break or crack in a bone caused by trauma or injury. <b>Trauma</b> encompasses physical injuries resulting from accidents, falls, or other sudden impacts that may affect the body’s tissues and organs. <b>Accident</b> is an unexpected event leading to injury or damage, often involving fractures or trauma. Medical treatment for these conditions typically includes pain management, immobilization, and sometimes surgery. The goal is to restore function and promote healing while preventing complications.</p>
             </div>
-            <div class="col-12 col-md-6">
-                <div class="col-12 col-md-6">
-                    <img src="../img/departments/infertility.jpg" class="infertility" alt="Infertility">
+            <div class="col-md-6">
+                <div class="col-12">
+                    <img src="../img/departments/fracture.jpeg" class="img-fluid" alt="Fracture">
                 </div>
             </div>
         </div>
@@ -43,28 +29,28 @@ include('appointment.php');
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">01. Comprehensive Care</h5>
+                            <h5 class="card-title">01. Bone Breaks</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">02. Expert Consultation</h5>
+                            <h5 class="card-title">02. Injury Management</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">03. Advanced Treatment</h5>
+                            <h5 class="card-title">03. Impact Trauma</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">04. Patient Support</h5>
+                            <h5 class="card-title">04. Accident Care</h5>
                         </div>
                     </div>
                 </div>
@@ -73,13 +59,13 @@ include('appointment.php');
 
         <div class="row my-5">
             <div class="col-lg-4 col-md-6 mb-4">
-                <img src="../img/departments/infertility1.jpg" alt="infertility" class="img-fluid rounded" />
+                <img src="../img/departments/fracture1.jpg" alt="Fracture" class="img-fluid rounded" />
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <img src="../img/departments/infertility2.jpg" alt="infertility" class="img-fluid rounded" />
+                <img src="../img/departments/fracture2.jpg" alt="Fracture" class="img-fluid rounded" />
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
-                <img src="../img/departments/infertility3.jpg" alt="infertility" class="img-fluid rounded" />
+                <img src="../img/departments/fracture3.jpg" alt="Fracture" class="img-fluid rounded" />
             </div>
         </div>
 

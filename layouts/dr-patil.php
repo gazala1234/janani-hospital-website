@@ -1,7 +1,6 @@
 <?php
 include('header.php');
 ?>
-
 <body>
     <div class="dr-wrapper">
         <div class="dr-patil container">
@@ -32,7 +31,7 @@ include('header.php');
                     <strong>Post Graduation:</strong><br>
                     MS (OBG): ESIPGIMSR, Joka Kolkata
                 </p>
-                <div class="my-5">
+                <div class="my-4">
                     <a href="index.php#appointment-section" class="btn btn-primary">Book Appointment</a>
                 </div>
             </div>

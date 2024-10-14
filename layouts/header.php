@@ -64,44 +64,44 @@
                         <li class="dropdown dropdown-items"><a href="#">OBG (Obstetrics and Gynecology) <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
                                 <li><a href="infertility.php" class="dropdown-items">Infertility</a></li>
-                                <li><a href="#" class="dropdown-items">Gynecology</a></li>
-                                <li><a href="#" class="dropdown-items">Painless Normal Delivery</a></li>
-                                <li><a href="#" class="dropdown-items">Endoscopy</a></li>
-                                <li><a href="#" class="dropdown-items">Laparoscopy</a></li>
-                                <li><a href="#" class="dropdown-items">Hysteroscopy</a></li>
+                                <li><a href="gynecology.php" class="dropdown-items">Gynecology</a></li>
+                                <li><a href="delivery.php" class="dropdown-items">Painless Normal Delivery</a></li>
+                                <li><a href="endoscopy.php" class="dropdown-items">Endoscopy</a></li>
+                                <li><a href="laparoscopy.php" class="dropdown-items">Laparoscopy</a></li>
+                                <li><a href="hysteroscopy.php" class="dropdown-items">Hysteroscopy</a></li>
                             </ul>
                         </li>
                         <li class="dropdown dropdown-items"><a href="#">Pediatrics & Neonatology <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="#" class="dropdown-items">Pediatrics & NICU (Neonatology / Immunization)</a></li>
+                                <li><a href="nicu.php" class="dropdown-items">Pediatrics & NICU (Neonatology / Immunization)</a></li>
                             </ul>
                         </li>
                         <li class="dropdown dropdown-items"><a href="#">General Medicine <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="#" class="dropdown-items">General Medicine</a></li>
-                                <li><a href="#" class="dropdown-items">Critical Care (ICU)</a></li>
+                                <li><a href="general-medicine.php" class="dropdown-items">General Medicine</a></li>
+                                <li><a href="icu.php" class="dropdown-items">Critical Care (ICU)</a></li>
                             </ul>
                         </li>
                         <li class="dropdown dropdown-items"><a href="#">General Surgery & Surgical Gastroenterology <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="#" class="dropdown-items">General Surgery</a></li>
-                                <li><a href="#" class="dropdown-items">Surgical Gastroenterology</a></li>
+                                <li><a href="general-surgery.php" class="dropdown-items">General Surgery</a></li>
+                                <li><a href="gastroenterology.php" class="dropdown-items">Surgical Gastroenterology</a></li>
                             </ul>
                         </li>
                         <li class="dropdown dropdown-items"><a href="#">Orthopaedics <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="#" class="dropdown-items">Fracture, Trauma & Accident</a></li>
+                                <li><a href="fracture.php" class="dropdown-items">Fracture, Trauma & Accident</a></li>
                             </ul>
                         </li>
                         <li class="dropdown dropdown-items"><a href="#">Urology & Nephrology <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="#" class="dropdown-items">Urology</a></li>
-                                <li><a href="#" class="dropdown-items">Nephrology</a></li>
+                                <li><a href="urology.php" class="dropdown-items">Urology</a></li>
+                                <li><a href="nephrology.php" class="dropdown-items">Nephrology</a></li>
                             </ul>
                         </li>
                         <li class="dropdown dropdown-items"><a href="#">Pain Management <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
-                                <li><a href="#" class="dropdown-items">Pain Clinic</a></li>
+                                <li><a href="pain-clinic.php" class="dropdown-items">Pain Clinic</a></li>
                             </ul>
                         </li>
                     </ul>
