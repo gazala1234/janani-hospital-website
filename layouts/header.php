@@ -56,6 +56,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-1 p-lg-0">
+                <div class="nav-item nav-link search-container">
+                    <i class="fas fa-search search-icon" id="searchIcon" aria-hidden="true"></i>
+                    <input type="text" class="form-control search-input" placeholder="Search" aria-label="Search" id="searchInput">
+                </div>
                 <a href="index.php" class="nav-item nav-link">Home</a>
                 <a href="about.php" class="nav-item nav-link">About</a>
 
@@ -111,12 +115,14 @@
                 <a href="doctors.php" class="nav-item nav-link">Our Doctors</a>
                 <a href="gallery.php" class="nav-item nav-link">Gallery</a>
                 <a href="contact.php" class="nav-item nav-link">Contact</a>
+                <!-- <select class="form-control">
+                    <option value="">Select Language</option>
+                    <option value="kannada">Kannada</option>
+                    <option value="english">English</option>
+                    <option value="hindi">Hindi</option>
+                    <option value="marathi">Marathi</option>
+                </select> -->
                 <a href="#" class="login-button nav-item btn btn-outline-primary light" style="margin-left: 10px;">Login</a>
-
-                <div class="nav-item nav-link search-container">
-                    <i class="fas fa-search search-icon" id="searchIcon" aria-hidden="true"></i>
-                    <input type="text" class="form-control search-input" placeholder="Search" aria-label="Search" id="searchInput">
-                </div>
             </div>
         </div>
     </nav>

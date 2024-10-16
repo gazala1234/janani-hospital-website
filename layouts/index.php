@@ -33,8 +33,77 @@ include('header.php');
     </button>
   </div>
 
+  <!-- Communities Section -->
+  <div class="container my-4">
+    <section class="communities">
+      <h1>Explore Our Communities</h1>
+      <div class="community-cards mt-5">
+        <div class="community-card">
+          <div class="card-content">
+            <img src="../img/community/janani-moms.jpeg" alt="Janani Moms" class="community-image">
+            <h3>Janani Moms</h3>
+            <p>Join a supportive community of mothers sharing experiences and advice.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">Join Community</a>
+            </div>
+          </div>
+        </div>
+        <div class="community-card">
+          <div class="card-content">
+            <img src="../img/community/pregnancy-class.jpeg" alt="Pregnancy Classes" class="community-image">
+            <h3>Pregnancy Classes</h3>
+            <p>Enroll in classes to learn about pregnancy, childbirth, and parenting.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">Enroll Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="community-card">
+          <div class="card-content">
+            <img src="../img/community/pregnancy-package.jpeg" alt="Pregnancy Packages" class="community-image">
+            <h3>Pregnancy Packages</h3>
+            <p>Explore our tailored packages for a healthy pregnancy journey.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">Explore Packages</a>
+            </div>
+          </div>
+        </div>
+        <div class="community-card">
+          <div class="card-content">
+            <img src="../img/community/health-card.jpeg" alt="Janani Health Card" class="community-image">
+            <h3>Janani Health Card</h3>
+            <p>Sign up for exclusive benefits and health services for mothers.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">Enroll Today</a>
+            </div>
+          </div>
+        </div>
+        <div class="community-card">
+          <div class="card-content">
+            <img src="../img/community/blog.jpeg" alt="Blog" class="community-image">
+            <h3>Blog</h3>
+            <p>Read our insightful articles and personal stories on motherhood.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+        </div>
+        <div class="community-card">
+          <div class="card-content">
+            <img src="../img/community/anc-calendar.jpeg" alt="ANC Calendar" class="community-image">
+            <h3>ANC Calendar</h3>
+            <p>A special package for a joyful birthing experience.</p>
+            <div class="text-center">
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
   <!-- Expertise  -->
-  <div class="container text-center pt-5">
+  <div class="container text-center">
     <h1>Nurturing New Life with Compassion and Expertise</h1>
     <p class="custom-justify mt-4">Janani Hospital is a leading maternity and women’s healthcare facility dedicated to providing exceptional care for mothers and newborns. With a team of experienced specialists and state-of-the-art facilities, we offer a comprehensive range of services, from prenatal care and childbirth to gynecology and fertility treatments. Our patient-centered approach ensures that every woman receives personalized care in a warm, supportive environment. At Janani Hospital, we are committed to nurturing new life and supporting women at every stage of their journey to motherhood.</p>
   </div>
@@ -73,38 +142,53 @@ include('header.php');
         </div>
 
         <div class="col-lg-3 col-md-4 col-sm-6 my-4">
-          <img src="../img/home/infertility.jpg" class="treatment-img" alt="Infertility">
-          <h5 class="card-title">Infertility</h5>
+          <a href="infertility.php">
+            <img src="../img/home/infertility.jpg" class="treatment-img" alt="Infertility">
+            <h5 class="card-title">Infertility</h5>
+          </a>
+        </div>
+
+
+        <div class="col-lg-3 col-md-4 col-sm-6 my-4">
+          <a href="gynecology.php">
+            <img src="../img/home/gynaecology.jpg" class="treatment-img" alt="Gynaecology">
+            <h5 class="card-title">Gynaecology</h5>
+          </a>
         </div>
 
         <div class="col-lg-3 col-md-4 col-sm-6 my-4">
-          <img src="../img/home/gynaecology.jpg" class="treatment-img" alt="Gynaecology">
-          <h5 class="card-title">Gynaecology</h5>
+          <a href="laparoscopy.php">
+            <img src="../img/home/laparoscopy.jpg" class="treatment-img" alt="Laparoscopy">
+            <h5 class="card-title">Laparoscopy</h5>
+          </a>
         </div>
 
         <div class="col-lg-3 col-md-4 col-sm-6 my-4">
-          <img src="../img/home/laparoscopy.jpg" class="treatment-img" alt="Laparoscopy">
-          <h5 class="card-title">Laparoscopy</h5>
+          <a href="nicu.php">
+            <img src="../img/home/nicu.jpg" class="treatment-img" alt="Pediatrics & NICU">
+            <h5 class="card-title">Pediatrics & NICU</h5>
+          </a>
         </div>
 
         <div class="col-lg-3 col-md-4 col-sm-6 my-4">
-          <img src="../img/home/nicu.jpg" class="treatment-img" alt="Pediatrics & NICU">
-          <h5 class="card-title">Pediatrics & NICU</h5>
+          <a href="fracture.php">
+            <img src="../img/home/orthopaedics.jpg" class="treatment-img" alt="Orthopaedics">
+            <h5 class="card-title">Orthopaedics</h5>
+          </a>
         </div>
 
         <div class="col-lg-3 col-md-4 col-sm-6 my-4">
-          <img src="../img/home/orthopaedics.jpg" class="treatment-img" alt="Orthopaedics">
-          <h5 class="card-title">Orthopaedics</h5>
+          <a href="general-medicine.php">
+            <img src="../img/home/general_medicine.jpg" class="treatment-img" alt="General Medicine">
+            <h5 class="card-title">General Medicine</h5>
+          </a>
         </div>
 
         <div class="col-lg-3 col-md-4 col-sm-6 my-4">
-          <img src="../img/home/general_medicine.jpg" class="treatment-img" alt="General Medicine">
-          <h5 class="card-title">General Medicine</h5>
-        </div>
-
-        <div class="col-lg-3 col-md-4 col-sm-6 my-4">
-          <img src="../img/home/general_surgery.jpg" class="treatment-img" alt="General Surgery">
-          <h5 class="card-title">General Surgery</h5>
+          <a href="general-surgery.php">
+            <img src="../img/home/general_surgery.jpg" class="treatment-img" alt="General Surgery">
+            <h5 class="card-title">General Surgery</h5>
+          </a>
         </div>
       </div>
     </div>
@@ -215,10 +299,10 @@ include('header.php');
               <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
                 <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
                   <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                    <i class="fas fa-heartbeat"></i>
+                    <i class="fas fa-heartbeat service-icons"></i>
                   </div>
                   <h4 class="mb-0">Health Screening</h4>
-                  <p class="justify-content">
+                  <p class="justify-content mt-3">
                     Health Screening involves preventive tests and assessments to detect potential health issues early.
                   </p>
                 </div>
@@ -226,10 +310,10 @@ include('header.php');
               <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
                 <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
                   <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                    <i class="fas fa-ambulance"></i>
+                    <i class="fas fa-ambulance service-icons"></i>
                   </div>
                   <h4 class="mb-0">Emergency Service</h4>
-                  <p class="justify-content">
+                  <p class="justify-content mt-3">
                     Emergency Service provides immediate medical care for acute illnesses and injuries.
                   </p>
                 </div>
@@ -239,10 +323,10 @@ include('header.php');
           <div class="col-md-6 wow fadeIn" data-wow-delay="0.7s">
             <div class="text-center rounded py-5 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
               <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
-                <i class="fas fa-stethoscope"></i>
+                <i class="fas fa-stethoscope service-icons"></i>
               </div>
               <h4 class="mb-0">Lab Test</h4>
-              <p class="justify-content">
+              <p class="justify-content mt-3">
                 Lab Tests analyze samples to diagnose and monitor health conditions.
               </p>
             </div>

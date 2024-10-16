@@ -10,8 +10,8 @@ include('appointment.php');
     <div class="container mt-3">
         <div class="row align-items-center">
             <div class="col-12 col-md-6">
-                <h1>What is Gynecology?</h1>
-                <p class="custom-justify">Gynecology is the branch of medicine that deals with the health of the female reproductive system, including the uterus, ovaries, ovaries, and breasts Gynecologists specialize in a wide range of menstrual issues, reproductive problems, sexual health, pregnancy, menstruation, etc. so they also perform surgical procedures such as hysterectomies and help in early detection.</p>
+                <h1>What is Gynaecology?</h1>
+                <p class="custom-justify">Gynaecology is the branch of medicine that deals with the health of the female reproductive system, including the uterus, ovaries, ovaries, and breasts Gynaecologists specialize in a wide range of menstrual issues, reproductive problems, sexual health, pregnancy, menstruation, etc. so they also perform surgical procedures such as hysterectomies and help in early detection.</p>
             </div>
             <div class="col-md-6">
                 <div class="col-12">
